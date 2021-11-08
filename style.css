@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.jmeno {
+    top: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.onlyimage {
+    position: fixed;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    transform: scale(1.1);
+    z-index: -101
+}
+
+.GeneratedText {
+    font-family: 'Comic Sans MS';
+    font-size: 30px;
+    letter-spacing: 0.2em;
+    line-height: 1.3em;
+}
+
+footer {
+    font-size: 23px !important;
+}
+
+.background {
+    background-image: url(idk.jfif);
+    max-width: 100%;
+    border-radius: 15px;
+    max-height: 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5 s;
+    position: relative;
+}
+
+a {
+    color: whitesmoke;
+}
