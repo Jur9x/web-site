@@ -63,6 +63,11 @@ a:hover i {
     text-decoration: none;
 }
 
+.aodkaz:hover {
+    color: blue;
+    text-decoration: none;
+}
+
 .havr:hover {
     animation: 1s infinite changecolor;
 }
@@ -101,4 +106,8 @@ a:hover i {
     100% {
         color: rgb(255, 225, 0);
     }
+}
+
+#img {
+    background-image: url(../img/idk.jfif);
 }
