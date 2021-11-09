@@ -40,7 +40,7 @@ footer {
 }
 
 .background {
-    background-image: url(idk.jfif);
+    background-image: url(../img/idk.jfif);
     max-width: 100%;
     border-radius: 15px;
     max-height: 100%;
@@ -51,4 +51,54 @@ footer {
 
 a {
     color: whitesmoke;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover i {
+    color: blue;
+    text-decoration: none;
+}
+
+.havr:hover {
+    animation: 1s infinite changecolor;
+}
+
+@keyframes changecolor {
+    0% {
+        color: rgb(255, 225, 0);
+    }
+    10% {
+        color: rgb(255, 208, 0);
+    }
+    20% {
+        color: rgb(0, 255, 128);
+    }
+    30% {
+        color: rgb(0, 89, 255);
+    }
+    40% {
+        color: rgb(0, 255, 221);
+    }
+    50% {
+        color: rgb(14, 0, 138);
+    }
+    60% {
+        color: rgb(255, 0, 212);
+    }
+    70% {
+        color: rgb(255, 0, 0);
+    }
+    80% {
+        color: rgb(255, 123, 0);
+    }
+    90% {
+        color: rgb(255, 196, 0);
+    }
+    100% {
+        color: rgb(255, 225, 0);
+    }
 }
